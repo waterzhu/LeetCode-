@@ -12,7 +12,7 @@ public:
             return false;
         ListNode* first = head;
         ListNode* second = head->next;
-        while (first && second)
+        while (first && second) 
         {
             if (first == second)
                 return true;
@@ -22,5 +22,6 @@ public:
             second = second->next->next;
         }
         return false;
+        
     }
 };
